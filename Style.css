@@ -1,0 +1,176 @@
+body {
+    background-color: #131313;
+    font-family: "YesevaOne";
+    color: #FFFFFF;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    box-sizing: inherit;
+}
+h1 {
+    font-size: 27px;
+    color: #E3B873;
+    letter-spacing: -0.07em;
+    line-height: 37px;
+}
+h2 {
+    color: #E3B873;
+    font-size: 18px;
+    margin-block-end: 9px;
+}
+.main-header {
+    display: flex;
+}
+.main-header::after {
+    background-color: #E3B873;
+    content: "";
+    display: block;
+    width: 92px;
+    height: 1px;
+    margin: 53px auto auto -114px;
+}
+p {
+    font-family: "NunitoSans";
+    font-size:14px;
+    margin-top: 54px;
+    width: 442px;
+    font-style: normal;
+    height: 86px;
+    line-height: 27px;
+}
+.main-information {
+    display: block;
+    margin: 145px auto auto 134.45px;
+    width:442px;
+}
+.main-information-header {
+    width: 253px;
+    height: 66px;
+    display: flex;
+}
+.slaider {
+    margin-top:100px;
+    margin-right: 135px;
+    position: relative;
+}
+.slaider__names {
+    color: rgba(255, 255, 255, 0.3);;
+    display: flex;
+    gap: 60.5px;
+    text-transform: uppercase;
+    margin-right: 56px;
+    font-size: 14px;
+}
+.main {
+    width: 1440px;
+    display: flex;
+}
+.apartments-properties {
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    box-sizing: inherit;
+}
+.apartments-properties-content {
+    text-transform:none;
+    font-size: 13px;
+    font-family: "NunitoSans";
+    margin-top: 7px;
+    line-height: 21.28px;
+}
+.city{
+    height: 42px;
+}
+.apartment-area {
+    width:161px;
+    height: 21px;
+}
+.repair-time {
+    width:103px;
+    height: 24px;
+}
+.repair-cost {
+    width:115px;
+    height: 24px;
+}
+.apartments-properties-city {
+    width: 91px;
+}
+.apartments-properties-area {
+    margin-left: 100px;
+}
+.apartments-properties-cost {
+    margin-left: 67px;
+}
+.apartments-properties-second {
+    margin-top: 19px;
+    display: flex;
+    text-transform: uppercase;
+}
+.slaider-navigation{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 82px;
+}
+
+.slaider-navigation__dots{
+    display: flex;
+    margin-left: 30px;
+    margin-top:2px;
+    gap: 17.54px;
+}
+.slaider-dots {
+    width: 9.57px;
+    height: 9.57px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+.slaider__images .image {
+    margin-top: 46px;
+    width: 679px;
+    height: 482px;
+    background-size: cover;
+    position: absolute;
+    background-position: center center;
+    opacity: 0;
+    transition: opacity 800ms ease;
+  }
+  .image-active {
+    opacity: 1!important;
+  }
+  
+  .right {
+    margin-left:30px;
+  }
+  .dots-active {
+    background: #FFFFFF;
+  }
+  .title-active {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    height: 22px;
+    
+  }
+  .slaid__name {
+    cursor:default;
+  }
+
+
+
+@font-face {
+    font-family: "NunitoSans";
+    src: url("./fonts/NunitoSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "YesevaOne";
+    src: url("./fonts/YesevaOne-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
