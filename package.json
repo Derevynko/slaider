@@ -1,0 +1,19 @@
+{
+  "name": "slaider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "slaiderjs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derevynko/slaider.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Derevynko/slaider/issues"
+  },
+  "homepage": "https://github.com/Derevynko/slaider#readme"
+}
