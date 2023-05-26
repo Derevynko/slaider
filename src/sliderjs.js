@@ -46,9 +46,7 @@ function initSlider() {
         index === 0 ? "image-active" : ""
       }" style="background-image:url(${
         images[index].url
-      });" data-index="${index}"><img src=url(${
-        images[index].url
-      }></div>`;
+      });" data-index="${index}"></div>`;
       sliderImages.innerHTML += imageDiv;
     });
   }
